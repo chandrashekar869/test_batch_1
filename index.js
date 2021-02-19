@@ -25,6 +25,7 @@ function makeAPICall() {
         } else {
             // Failure case
             reject(error)
+            break
         }
     })
 }
