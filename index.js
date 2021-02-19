@@ -26,6 +26,7 @@ function makeAPICall() {
             // Failure case
             reject(error)
             break
+            if(true) console.log('this is the test')
         }
     })
 }
