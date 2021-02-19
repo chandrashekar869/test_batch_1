@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="1800">
+    <title>Ambee Heatmap</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./index.js"></script>
+    <meta charset="utf-8">
+</head>
+
+<body onload="initLet()">
+    <h1 style="background-color: lightgray;">This is a Heading</h1>
+    <p id='sub-title'>Hi welcome to HTML. Lets create a simple form</p>
+    <button  onclick="action()">Action</button>
+    <br />
+    <hr/>
+
+    <a href="https://www.google.com" target="_blank">This opens google</a>
+
+    <form action="https://xyz.com/action.php" method="POST" name="sample-form" novalidate target="_blank">
+        <label for="fname">First name:</label><br><br>
+        <input type="text" class="form-element" id="fname" name="fname" placeholder="Eg: John"><br><br>
+        <label for="lname">Last name:</label><br><br>
+        <input type="text" class="form-element" id="lname" name="lname" value="Doe"><br><br><br>
+        <select class="orange-background yellow-background "  name="gender" value="male">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br><br>
+        <textarea class="form-element" name="message" rows="10" cols="30">
+            The cat was playing in the garden.
+            </textarea>
+        <input type="submit" value="Submit">
+        <button type="submit"> Submit</button>
+    </form>
+
+    <p>If you click the "Submit" button, the form-data will be sent to a page mentioned in action.</p>
+
+
+    <div style="position: relative;height: 5rem;border: 1px solid black;overflow-y: auto;">
+        <div style="height: 3rem;width: 3rem;background: orange;z-index: 5;">
+
+        </div>
+        <div style="height: 3rem;width: 3rem;background: orange;z-index: 5;">
+
+        </div>
+        <div style="height: 3rem;width: 3rem;background: orange;z-index: 5;">
+
+        </div>
+        <div style="height: 3rem;width: 3rem;background: orange;z-index: 5;">
+
+        </div>
+        <div style="position:absolute; height: 3rem;width: 3rem;background: green;bottom:1rem;left: 2rem;z-index: -1;">
+
+        </div>
+
+    </div>
+</body>
+
+</html>
